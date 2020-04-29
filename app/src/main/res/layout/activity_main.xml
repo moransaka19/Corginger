@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+     <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+         <Button
+             android:id="@+id/btn_login"
+             android:layout_width="358dp"
+             android:layout_height="45dp"
+             android:background="@drawable/btn_orange_radius"
+             android:backgroundTint="#FFA31A"
+             android:text="@string/login"
+             android:textColor="#FFFFFF"
+             app:layout_constraintBottom_toBottomOf="parent"
+             app:layout_constraintEnd_toEndOf="@+id/btn_sign_up"
+             app:layout_constraintStart_toStartOf="@+id/btn_sign_up"
+             app:layout_constraintTop_toTopOf="parent" />
+
+         <Button
+             android:id="@+id/btn_sign_up"
+             android:layout_width="355dp"
+             android:layout_height="42dp"
+             android:background="@drawable/btn_orange_radius"
+             android:backgroundTint="#FFA31A"
+             android:text="@string/sign_up"
+             android:textColor="#FFFFFF"
+             app:layout_constraintBottom_toBottomOf="parent"
+             app:layout_constraintEnd_toEndOf="parent"
+             app:layout_constraintHorizontal_bias="0.482"
+             app:layout_constraintStart_toStartOf="parent"
+             app:layout_constraintTop_toTopOf="parent"
+             app:layout_constraintVertical_bias="0.58" />
+
+         <TextView
+            android:id="@+id/text_corginger"
+            android:layout_width="185dp"
+            android:layout_height="64dp"
+            android:fontFamily="@font/comic_sans_mx"
+            android:text="@string/corginger"
+            android:textColor="#333333"
+            android:textSize="40sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.73"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.298" />
+
+        <ImageView
+            android:id="@+id/img_logo"
+            android:layout_width="72dp"
+            android:layout_height="75dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.247"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.286"
+            app:srcCompat="@drawable/logo" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

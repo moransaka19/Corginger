@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Corginger</string>
+    <string name="corginger">Corginger</string>
+    <string name="login">Login</string>
+    <string name="log_in">Log In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="or">or</string>
+    <string name="login_with_google">Login with Google</string>
+    <string name="login_with_facebook">Login with Facebook</string>
+    <string name="sign_up_with_facebook">Sign Up with Facebook</string>
+    <string name="sign_up_with_google">Sign Up with Google</string>
+</resources>
